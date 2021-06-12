@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Merriweather", serif;
+    background-color:#ebf2ff;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:#fff;
+}
+.navbar__brand{
+    width:100px;
+}
+.navbar__logo{
+    width:100%;
+}
+.nav__item{
+    background-image:linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+color:#fff;
+border:none;
+padding:12px;
+border-radius:6px;
+cursor:pointer;
+}
+.nav__item:hover{
+    background-image:linear-gradient(to right,#fff,#ebf2ff,#fff);
+    color:crimson;
+    border:2px solid crimson;
+    border-radius:6px;
+}
+/* in background image we have used gradient to ensure that the backgrounsd coloe must 
+be comprised of all these colors */
+@media (min-width:768px){
+    .navbar{
+        justify-content:space-between;
+        padding:2px 30px;
+    }
+}
+@media (min-width:1020px){
+    .navbar__brand{
+        width:150px;
+    }
+    .nav__item{
+        padding:20px;
+        font-size:20px;
+    }
+}
