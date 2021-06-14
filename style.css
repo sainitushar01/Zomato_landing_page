@@ -60,6 +60,14 @@ cursor:pointer;
     box-shadow:0 25px 50px -12px rgba(0,0,0,0.25);
     position:absolute;
 }
+.hero__svg__merger
+{
+    position:relative;
+    z-index: -3;
+}
+.hero__image__svg{
+    position:absolute;
+}
 .hero__text{
     font-size:30px;
     margin:20px 0;
@@ -70,6 +78,32 @@ cursor:pointer;
     border:2px solid crimson;
     border-radius:6px;
 }
+.food__card{
+    background-color:#fff;
+    border-radius:8px;
+    margin-bottom:15px;
+}
+.food__card:hover{
+    color:goldenrod;
+    font-size: 25px;
+}
+.food__card__image__container{
+    width:100%;
+}
+.food__image{
+    width:100%;
+    border-radius:8px 8px 0 0 ;
+}
+.food__card__description{
+    padding:15px;
+}
+.explore__menu__text{
+    font-size:30px;
+    margin-top:50px;
+    margin-bottom:25px;
+    text-align: center;
+}
+
 /* in background image we have used gradient to ensure that the backgrounsd coloe must 
 be comprised of all these colors */
 @media (min-width:768px){
@@ -82,6 +116,38 @@ be comprised of all these colors */
         display:flex;
         flex-direction:row-reverse;
         align-items:center;
+    }
+    .explore__menu__lists{
+        display:flex;
+        gap:15px;
+        margin-top:40px;
+        padding:20px;
+    }
+    #pizza__card{
+        margin-top:-20px;
+        margin-bottom:30px;
+    }
+    .explore__menu__view__more{
+        display:flex;
+        justify-content: center;
+    }
+    .explore__menu__container{
+        position:relative;
+    }
+    .explore__menu__gradient__bg{
+       position:absolute;
+       width:100%;
+       height:100%;
+       top:0;
+       left:0;
+       background-image:linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    transform:skewY(-5deg);
+    z-index:-3;
     }
 }
 @media (min-width:1020px){
@@ -101,8 +167,13 @@ be comprised of all these colors */
     .hero__text{
         font-size:50px;
     }
+    .explore__menu__lists{
+        gap:40px;
+    }
+    .explore__menu__text{
+        font-size:50px;
+    }
 }
-
 @media (min-width:1400px)
 {
     .container{
