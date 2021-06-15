@@ -51,6 +51,9 @@ margin-right:10px;
 border-radius:6px;
 cursor:pointer;
 }
+section{
+    margin-bottom:80px;
+    }
 .hero__image__container{
     width:100%;
     position:relative;
@@ -163,6 +166,31 @@ margin-bottom:3px;
 .user{
     margin-bottom:80px;
 }
+.image__quote__container{
+    width:100%;
+    color:white;
+    border-radius:20px;
+    position:relative;
+}
+.image__container{
+    width:100%;
+    border-radius:20px;
+}
+.image__image__container{
+    width:100%;
+    border-radius:20px;
+    opacity:0.8;
+}
+.quote__container{
+    position:absolute;
+    top:70px;
+    right:0;
+   margin-left:10px;
+   margin-right:10px;
+}
+.quote__quote__container{
+    font-family: "Merriweather", serif;
+}
 .footer__container{
     color:white;
     text-align:center;
@@ -193,6 +221,7 @@ margin-bottom:3px;
     padding-bottom:5px;
     margin-left:90px;
 }
+
 /* in background image we have used gradient to ensure that the backgrounsd coloe must 
 be comprised of all these colors */
 @media (min-width:768px){
@@ -247,9 +276,6 @@ be comprised of all these colors */
         width:100%;
         font-size:40px;
     }
-    section{
-        margin-bottom:80px;
-        }
         .explore__menu__button{
             width:150px;
         }
@@ -274,7 +300,29 @@ be comprised of all these colors */
         .footer__heading{
             width:100%;
         }
-
+        .image__quote__container{
+            height:300px;
+        }
+        .image__container{
+            width:100%;
+            height:100%;
+            border-radius:20px;
+        }
+        .image__image__container{
+            width:100%;
+            height:100%;
+            border-radius:20px;
+            opacity:0.8;
+        }
+        .quote__container{
+            margin-top:45px;
+           margin-left:20px;
+           margin-right:20px;
+        }
+        .quote__quote__container{
+            font-family: "Merriweather", serif;
+            font-size:30px;
+        }
 }
 @media (min-width:1020px){
     .container{
@@ -299,7 +347,29 @@ be comprised of all these colors */
     .explore__menu__text{
         font-size:50px;
     }
-  
+    .image__quote__container{
+        height:300px;
+    }
+    .image__container{
+        width:100%;
+        height:100%;
+        border-radius:20px;
+    }
+    .image__image__container{
+        width:100%;
+        height:100%;
+        border-radius:20px;
+        opacity:0.8;
+    }
+    .quote__container{
+        margin-top:45px;
+       margin-left:20px;
+       margin-right:20px;
+    }
+    .quote__quote__container{
+        font-family: "Merriweather", serif;
+        font-size:30px;
+    }
 }
 @media (min-width:1400px)
 {
@@ -312,4 +382,27 @@ be comprised of all these colors */
      .email__box{
         width:400px;
      }
+     .image__quote__container{
+        height:300px;
+    }
+    .image__container{
+        width:100%;
+        height:100%;
+        border-radius:20px;
+    }
+    .image__image__container{
+        width:100%;
+        height:100%;
+        border-radius:20px;
+        opacity:0.8;
+    }
+    .quote__container{
+        margin-top:45px;
+       margin-left:20px;
+       margin-right:20px;
+    }
+    .quote__quote__container{
+        font-family: "Merriweather", serif;
+        font-size:34px;
+    }
 }
