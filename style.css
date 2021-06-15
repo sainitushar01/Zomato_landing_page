@@ -110,7 +110,6 @@ cursor:pointer;
 .restaurant__images__container{
     width:100%;
     margin-bottom:80px;
-    margin-left:25px;
 }
 .restaurant__images__row__one{
 width:100%;
@@ -163,6 +162,36 @@ margin-bottom:3px;
 }
 .user{
     margin-bottom:80px;
+}
+.footer__container{
+    color:white;
+    text-align:center;
+    padding-top:60px;
+    background-image:linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    border-radius:20px 20px 0 0;
+    font-family: "Merriweather", serif;
+    width:100%;
+}
+.footer__heading{
+    margin-bottom:60px;
+    font-size:70px;
+    font-style:italic;
+    font-weight: 900;
+}
+.footer__content{
+   list-style-type: none;
+   display:flex;
+   flex-direction: column;
+   align-items:flex-start;
+}
+.footer__content__item{
+    padding-bottom:5px;
+    margin-left:90px;
 }
 /* in background image we have used gradient to ensure that the backgrounsd coloe must 
 be comprised of all these colors */
@@ -232,6 +261,18 @@ be comprised of all these colors */
         }
         .email__box{
            width:400px;
+        }
+        .footer__container{
+            display:flex;
+             justify-content: space-around;
+             align-items: center;
+        }
+        .footer__content{
+            width:100%;
+            margin-bottom:40px;
+        }
+        .footer__heading{
+            width:100%;
         }
 
 }
